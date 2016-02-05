@@ -10,6 +10,8 @@
 		333C1A691C63703700CEDF52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333C1A681C63703700CEDF52 /* AppDelegate.swift */; };
 		333C1A6B1C63703700CEDF52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333C1A6A1C63703700CEDF52 /* Assets.xcassets */; };
 		333C1A6E1C63703700CEDF52 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 333C1A6C1C63703700CEDF52 /* MainMenu.xib */; };
+		333C1A761C63752500CEDF52 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333C1A751C63752500CEDF52 /* StatusMenuController.swift */; };
+		333C1A781C6391D000CEDF52 /* ActiveURLAndName.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 333C1A771C6391CF00CEDF52 /* ActiveURLAndName.applescript */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		333C1A6A1C63703700CEDF52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333C1A6D1C63703700CEDF52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		333C1A6F1C63703700CEDF52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333C1A751C63752500CEDF52 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		333C1A771C6391CF00CEDF52 /* ActiveURLAndName.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = ActiveURLAndName.applescript; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				333C1A681C63703700CEDF52 /* AppDelegate.swift */,
+				333C1A751C63752500CEDF52 /* StatusMenuController.swift */,
 				333C1A6A1C63703700CEDF52 /* Assets.xcassets */,
 				333C1A6C1C63703700CEDF52 /* MainMenu.xib */,
 				333C1A6F1C63703700CEDF52 /* Info.plist */,
+				333C1A771C6391CF00CEDF52 /* ActiveURLAndName.applescript */,
 			);
 			path = Prodder;
 			sourceTree = "<group>";
@@ -128,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				333C1A761C63752500CEDF52 /* StatusMenuController.swift in Sources */,
 				333C1A691C63703700CEDF52 /* AppDelegate.swift in Sources */,
+				333C1A781C6391D000CEDF52 /* ActiveURLAndName.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +241,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Prodder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = gg.hc.Prodder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -245,6 +254,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Prodder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = gg.hc.Prodder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -269,6 +279,7 @@
 				333C1A741C63703700CEDF52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
