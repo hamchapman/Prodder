@@ -13,6 +13,7 @@ class StatusMenuController: NSObject {
     
     let BROWSERS = ["Firefox", "Safari", "Google Chrome", "Google Chrome Canary"]
     let BASE_ENDPOINT = "https://proddy.herokuapp.com"
+//    let BASE_ENDPOINT = "https://6de767.ngrok.com"
     let defaults = NSUserDefaults.standardUserDefaults()
     
     @IBOutlet weak var window: NSWindow!
